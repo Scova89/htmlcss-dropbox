@@ -43,7 +43,17 @@ nav #nav-right{
 }
 
 
+/* jumbotron */
 
+.jumbotron{
+    width: 100%;
+    height: 500px;
+}
+
+#sfondo-azzurro{
+    background-color: rgb(180 208 231);
+    height: 450px;
+}
 
 
 /* ***** debug ***** */
@@ -54,4 +64,8 @@ nav #nav-right{
 
 .debug #nav-left, .debug #nav-right{
     background-color: blue;
+}
+
+.debug .jumbotron{
+    background-color: coral;
 }
