@@ -55,6 +55,37 @@ nav #nav-right{
     height: 450px;
 }
 
+#sezione1{
+    width: 80%;
+    margin: 0 auto; 
+}
+
+#sezione2{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#sezione3{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#sezione4{
+    width: 100%;
+    margin: 0 auto;
+}
+
+#sezione5{
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer{
+    width: 100%;
+    background-color: black;
+}
+
+
 
 /* ***** debug ***** */
 
@@ -68,4 +99,34 @@ nav #nav-right{
 
 .debug .jumbotron{
     background-color: coral;
+}
+
+.debug main #sezione1{
+    background-color: rgb(79, 212, 79);
+    height: 700px;
+}
+
+.debug main #sezione2{
+    background-color: rgb(165, 216, 45);
+    height: 400px;
+}
+
+.debug main #sezione3{
+    background-color: rgb(216, 65, 45);
+    height: 500px;
+}
+
+.debug main #sezione4{
+    background-color: rgb(243, 61, 167);
+    height: 500px;
+}
+
+.debug main #sezione5{
+    background-color: rgb(61, 161, 243);
+    height: 300px;
+}
+
+
+.debug footer {
+    height: 500px;
 }
