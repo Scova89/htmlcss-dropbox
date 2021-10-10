@@ -173,7 +173,7 @@ h3{
 #sezione1{
     width: 80%;
     margin: 0 auto;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 
 
@@ -323,7 +323,7 @@ hr {
 #sezione2{
     width: 80%;
     margin: 0 auto;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 
 #sezione2 img{
@@ -380,7 +380,8 @@ hr {
     line-height: 1.7;
 }
 
-#sezione3 .box-operazioni:nth-of-type(2){
+#sezione3 .box-operazioni:nth-of-type(2),
+#sezione3 .box-operazioni:nth-of-type(5){
     margin-left: 60px;
     margin-right: 60px;
 }
