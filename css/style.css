@@ -359,12 +359,14 @@ hr {
 #sezione3{
     width: 80%;
     margin: 0 auto;
+    
 }
 
 .box-operazioni{
     margin-top: 30px;
     width: calc(100% / 3 - 40px);
     float: left;
+    margin-bottom: 80px;
 }
 
 .box-operazioni img{
@@ -390,14 +392,170 @@ hr {
 
 
 
-
-
-
+/* sezione 4 */
 
 #sezione4{
     width: 100%;
     margin: 0 auto;
+    
 }
+
+.titolo-loghi{
+    width: 40%;
+    margin-left: 127px;
+    margin-bottom: 40px;
+}
+
+.titolo-loghi h2{
+    margin-bottom: 20px;
+}
+
+.titolo-loghi a{
+    color: rgb(22, 76, 255);
+}
+
+.titolo-loghi a:hover{
+    text-decoration: underline;
+}
+
+
+.box-container{
+    width: 100%;
+    height: 28vw;
+    background-color: rgb(245 245 245);
+}
+
+
+
+.box-snt{
+    float: left;
+    width: 28vw;
+    height: 28vw;
+    z-index: auto;
+}
+
+.testo-centrale{
+    float: left;
+    margin: 0 auto;
+    padding: 50px 40px;
+    width: 37vw;
+    font-size: 11pt;
+}
+
+.testo-centrale p:nth-of-type(2){
+    margin-top: 20px;
+}
+
+.testo-centrale img{
+    width: 10vw;
+}
+
+
+.box-dst{
+    float: right;
+    width: 28vw;
+    height: 28vw;
+    z-index: auto;
+}
+
+
+
+.box-designit{
+    width: 14vw;
+    height: 14vw;
+    background-color: rgb(162 211 155);
+    border: 10px solid rgb(208 233 205);
+    float: left;
+    background-image: url(../img/designit.svg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+     fill: rgb(255, 255, 255);
+}
+
+.box-asu{
+    width: 14vw;
+    height: 14vw;
+    background-color: rgb(97 8 43);
+    float: left;
+    background-image: url(../img/arizona_state_university.svg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.box-uf{
+    width: 14vw;
+    height: 14vw;
+    background-color: rgb(0 147 206);
+    float: left;
+    background-image: url(../img/university_of_florida.svg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box-topps{
+    width: 14vw;
+    height: 14vw;
+    background-color: rgb(255 28 28);
+    float: left;
+    background-image: url(../img/topps.svg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box-wbr{
+    width: 14vw;
+    height: 14vw;
+    background-color: rgb(213 0 31);
+    float: left;
+    background-image: url(../img/world_bicycle_relief.svg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box-hearst{
+    width: 14vw;
+    height: 14vw;
+    background-color: rgb(180 208 231);
+    float: left;
+    background-image: url(../img/hearst_corp.svg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box-lonely{
+    width: 14vw;
+    height: 14vw;
+    background-color: rgb(13 36 129);
+    float: left;
+    background-image: url(../img/lonely_planet.svg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box-clear{
+    width: 14vw;
+    height: 14vw;
+    background-color: rgb(255 216 48);
+    float: left;
+    background-image: url(../img/clear_channel.svg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+
+
 
 #sezione5{
     width: 80%;
