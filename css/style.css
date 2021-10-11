@@ -53,6 +53,7 @@ header{
     position: fixed;
     background-color: white;
     border-bottom: 1px solid lightgrey;
+    z-index: 100;
 }
 
 nav#main-nav ul:first-child{
@@ -397,7 +398,7 @@ hr {
 #sezione4{
     width: 100%;
     margin: 0 auto;
-    
+    margin-bottom: 80px;
 }
 
 .titolo-loghi{
@@ -419,19 +420,19 @@ hr {
 }
 
 
+/* box dei loghi */
+
 .box-container{
     width: 100%;
     height: 28vw;
     background-color: rgb(245 245 245);
 }
 
-
-
 .box-snt{
     float: left;
     width: 28vw;
     height: 28vw;
-    z-index: auto;
+    
 }
 
 .testo-centrale{
@@ -455,10 +456,8 @@ hr {
     float: right;
     width: 28vw;
     height: 28vw;
-    z-index: auto;
+    
 }
-
-
 
 .box-designit{
     width: 14vw;
@@ -470,7 +469,7 @@ hr {
     background-size: 60%;
     background-repeat: no-repeat;
     background-position: center;
-     fill: rgb(255, 255, 255);
+     
 }
 
 .box-asu{
@@ -482,6 +481,7 @@ hr {
     background-size: 60%;
     background-repeat: no-repeat;
     background-position: center;
+    
 }
 
 
@@ -494,6 +494,7 @@ hr {
     background-size: 60%;
     background-repeat: no-repeat;
     background-position: center;
+    
 }
 
 .box-topps{
@@ -505,6 +506,7 @@ hr {
     background-size: 60%;
     background-repeat: no-repeat;
     background-position: center;
+    
 }
 
 .box-wbr{
@@ -516,6 +518,7 @@ hr {
     background-size: 60%;
     background-repeat: no-repeat;
     background-position: center;
+    
 }
 
 .box-hearst{
@@ -527,6 +530,7 @@ hr {
     background-size: 60%;
     background-repeat: no-repeat;
     background-position: center;
+    
 }
 
 .box-lonely{
@@ -538,6 +542,7 @@ hr {
     background-size: 60%;
     background-repeat: no-repeat;
     background-position: center;
+    
 }
 
 .box-clear{
@@ -549,6 +554,28 @@ hr {
     background-size: 60%;
     background-repeat: no-repeat;
     background-position: center;
+ 
+}
+
+
+.box-sottostante{
+    width: 100%;
+    background-color: rgb(180 208 231);
+    padding: 80px 90px;
+    
+}
+
+.box-sottostante h2{
+    color: rgb(97 8 43);
+    float: left;
+    width: 40%;
+    
+}
+    
+.box-sottostante a{
+    float: right;
+    padding: 10px 30px;
+    background-color: white;
 }
 
 
@@ -556,10 +583,33 @@ hr {
 
 
 
+/* sezione 5 */
 
 #sezione5{
     width: 80%;
     margin: 0 auto;
+}
+
+#sezione5 h2{
+    line-height: 5.0;
+    border-bottom: 1px solid rgb(214, 214, 214);
+    line-height: 5.0;
+}
+
+
+#sezione5 ul{
+    list-style: none;
+    font-weight: bold; 
+} 
+
+#sezione5 ul li{
+    
+    line-height: 5.0;
+    border-bottom: 1px solid rgb(214, 214, 214);
+}
+
+.fa-chevron-right{
+    margin-left: 400px;
 }
 
 footer{
