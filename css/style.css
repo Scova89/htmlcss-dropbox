@@ -588,6 +588,7 @@ hr {
 #sezione5{
     width: 80%;
     margin: 0 auto;
+    margin-bottom: 80px;
 }
 
 #sezione5 h2{
@@ -612,10 +613,67 @@ hr {
     margin-left: 400px;
 }
 
+
+
+
+
+
+/* footer */
+
 footer{
     width: 100%;
+    height: 450px;
     background-color: black;
+    padding: 50px 70px;
+    color: white;
 }
+
+.lista{
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+footer ul li:first-child{
+    font-size: 16pt;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+footer ul{
+    float: left;
+    width: calc(100% / 5);
+    list-style: none;
+}
+
+footer a{
+    color: white;
+    line-height: 2.0;
+   
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer hr{
+    width: 10%;
+}
+
+footer .lingue{
+    font-size: 10pt;
+    color: gray;
+    margin-top: 50px;
+}
+
+.lingue .fa-caret-right{
+    margin-left: 5px;
+}
+
+
+
+
 
 
 
