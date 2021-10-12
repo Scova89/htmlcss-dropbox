@@ -107,21 +107,32 @@ nav#main-nav ul li:hover ul{
     display: block;
     position: absolute;
     z-index:1;
-    width:300px;
+    width:500px;
     padding: 0;
     margin: 0 0 0 -1px;
     background-color: rgb(214, 214, 214);
     line-height: 2.5;
-    
+}
+
+
+nav#main-nav ul li ul a{
+    padding: 7px 7px;
+}
+
+nav#main-nav ul li:hover ul#stmenù li#titoletto{
+    font-size: 10pt;
+    margin: 0 0 0 20px;
+}
+
+nav#main-nav ul#stmenù li a:hover{
+    background-color: rgb(143, 142, 142);
 }
 
 nav#main-nav li li { 
-    border:none; width:250px; 
+   float: left;
+    width:300px;
 }
 
-nav#main-nav li li a { 
-    padding:2px 2px 2px 10px; 
-}
 
 
 /* jumbotron */
